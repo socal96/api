@@ -66,7 +66,7 @@ Tests are located in `tests` directory. They are developed with [Codeception PHP
 ###            dump: tests/_data/dump.sql
 
 
-For run Test execute command
+For run Tests execute command
 ```
 vendor/bin/codecept run
 ``` 
