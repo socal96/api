@@ -1,7 +1,7 @@
 API application for Yii 2 Basic Project Template 
 ============================
 
-Y
+App
 DIRECTORY STRUCTURE
 -------------------
 
@@ -42,8 +42,31 @@ Tests are located in `tests` directory. They are developed with [Codeception PHP
 
 - `unit`
 
-Tests can be executed by running
+- Edit codeception.yml in /vendor/bin
+### actor: Tester
+### paths:
+###    tests: ../../tests
+###    log: ../../tests/_output
+###    data: ../../tests/_data
+###    support: ../../tests/_support
+###    envs: ../../tests/_envs
+### settings:
+###    bootstrap: _bootstrap.php
+###    colors: false
+###    memory_limit: 1024M
+### extensions:
+###    enabled:
+###        - Codeception\Extension\RunFailed
+### modules:
+###    config:
+###        Db:
+###            dsn: ''
+###            user: ''
+###            password: ''
+###            dump: tests/_data/dump.sql
 
+
+For run Test execute command
 ```
 vendor/bin/codecept run
 ``` 
