@@ -27,14 +27,11 @@ The minimum requirement by this project template that your Web server supports P
 
 INSTALLATION
 ------------
-
-### Install 
-
-1.Clone repository.
-2.Update Composer.
-3.Create pgsql database with name "api".
-4.In app path execute : yii migrate.
-5.Open your browser and go to localhost.
+### 1.Clone repository
+### 2.Update Composer
+### 3.Create pgsql database with name "api"
+### 4.In app path execute : yii migrate
+### 5.Open your browser and go to localhost
 
 
 
